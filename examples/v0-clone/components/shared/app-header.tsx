@@ -80,7 +80,7 @@ export function AppHeader({ className = '' }: AppHeaderProps) {
               onClick={handleLogoClick}
               className="text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
             >
-              v0 Clone
+              Eurozonic Site Builder
             </Link>
             {/* Hide ChatSelector on mobile */}
             <div className="hidden lg:block">
@@ -90,39 +90,6 @@ export function AppHeader({ className = '' }: AppHeaderProps) {
 
           {/* Desktop right side - What's This, GitHub, Deploy, and User */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button
-              variant="outline"
-              className="py-1.5 px-2 h-fit text-sm"
-              onClick={() => setIsInfoDialogOpen(true)}
-            >
-              <Info size={16} />
-              What's This?
-            </Button>
-            <Button
-              variant="outline"
-              className="py-1.5 px-2 h-fit text-sm"
-              asChild
-            >
-              <Link
-                href="https://github.com/vercel/v0-sdk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GitHubIcon size={16} />
-                vercel/v0-sdk
-              </Link>
-            </Button>
-
-            {/* Deploy with Vercel button - hidden on mobile */}
-            <Button
-              className="bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-zinc-200 text-zinc-50 dark:text-zinc-900 py-1.5 px-2 h-fit text-sm"
-              asChild
-            >
-              <Link href={DEPLOY_URL} target="_blank" rel="noopener noreferrer">
-                <VercelIcon size={16} />
-                Deploy with Vercel
-              </Link>
-            </Button>
             <UserNav session={session} />
           </div>
 
@@ -139,7 +106,7 @@ export function AppHeader({ className = '' }: AppHeaderProps) {
         <DialogContent className="max-w-2xl">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold mb-4">
-              v0 Clone Platform
+              Eurozonic Site Builder
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-sm text-gray-600 dark:text-gray-300">
@@ -151,7 +118,7 @@ export function AppHeader({ className = '' }: AppHeaderProps) {
                 rel="noopener noreferrer"
                 className="underline text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
               >
-                v0 clone
+                Eurozonic Site Builder
               </a>{' '}
               where users can enter text prompts and generate React components
               and applications using AI.
