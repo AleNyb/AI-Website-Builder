@@ -9,18 +9,18 @@ export const entitlementsByUserType: Record<UserType, Entitlements> = {
    * For users without an account (anonymous)
    */
   guest: {
-    maxMessagesPerDay: 5,
+    maxMessagesPerDay: 500,
   },
 
   /*
    * For users with an account
    */
   regular: {
-    maxMessagesPerDay: 50,
+    maxMessagesPerDay: 500,
   },
 }
 
 // For anonymous users (no session)
 export const anonymousEntitlements: Entitlements = {
-  maxMessagesPerDay: 3,
+  maxMessagesPerDay: 300,
 }
