@@ -1,5 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalEnv": [
+    "V0_API_KEY",
+    "AUTH_SECRET",
+    "POSTGRES_URL"
+  ],
+  "globalDependencies": [".env"],
   "ui": "tui",
   "tasks": {
     "build": {
