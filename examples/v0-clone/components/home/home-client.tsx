@@ -659,9 +659,7 @@ export function HomeClient() {
           {/* Footer */}
           <div className="mt-8 md:mt-16 text-center text-sm text-muted-foreground">
             <p>
-              Powered by{' '}
-                Eurozonic
-              </Link>
+              Powered by Eurozonic
             </p>
           </div>
         </div>
