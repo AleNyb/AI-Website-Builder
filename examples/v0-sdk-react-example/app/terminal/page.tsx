@@ -109,14 +109,8 @@ export default function TerminalPage() {
             </div>
             <div className="text-xs text-green-600">
               Powered by{' '}
-              <a
-                href="https://github.com/vercel/v0-sdk"
-                className="text-cyan-400 hover:text-cyan-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @v0-sdk/react
-              </a>
+                Eurozonic
+
               {' | '}
               <span className="text-green-500">●</span> Online
             </div>
