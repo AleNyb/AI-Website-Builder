@@ -152,7 +152,7 @@ export default function NeobrutlismPage() {
           <div className="bg-black border-4 border-white p-6 inline-block shadow-[8px_8px_0px_0px_rgba(255,255,255,1)] transform rotate-1">
             <div className="flex items-center gap-3 text-white font-black uppercase">
               <div className="w-6 h-6 bg-red-500 border-2 border-white"></div>
-              <span>POWERED BY @V0-SDK/REACT</span>
+              <span>POWERED BY EUROZONIC</span>
               <div className="w-6 h-6 bg-green-500 border-2 border-white"></div>
             </div>
           </div>
