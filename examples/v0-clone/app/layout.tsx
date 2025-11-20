@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 Clone',
+  title: 'Eurozonic Site Builder',
   description:
-    'A clone of v0.dev built with the v0 SDK - Generate and preview React components with AI',
+    'Eurozonic Site Builder - Generate and deploy your European websites',
 }
 
 export default function RootLayout({
