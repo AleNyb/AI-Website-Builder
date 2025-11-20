@@ -108,11 +108,7 @@ export default function TerminalPage() {
               <span className="text-green-400">[SYSTEM]</span> Session active.
             </div>
             <div className="text-xs text-green-600">
-              Powered by{' '}
-                Eurozonic
-
-              {' | '}
-              <span className="text-green-500">●</span> Online
+              Powered by Eurozonic
             </div>
           </div>
         </footer>
