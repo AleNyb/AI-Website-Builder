@@ -133,6 +133,8 @@ export async function POST(request: NextRequest) {
         })
         chat = await v0.chats.create({
           message,
+         system: "You are an expert React and TypeScript UI engineer. If localisation for French, Spanish and Swedish isn't already included you include it now.",
+
           responseMode: 'experimental_stream',
           ...(attachments && attachments.length > 0 && { attachments }),
         })
