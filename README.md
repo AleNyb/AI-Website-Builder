@@ -1,8 +1,6 @@
-# v0 SDK Monorepo
+# AI Website Builder
 
-> **⚠️ Developer Preview**: This SDK is currently in beta and is subject to change. Use in production at your own risk.
-
-A monorepo containing SDKs for interacting with the v0 Platform API to create and manage AI-powered chat conversations, projects, integrations, and more.
+This is based on a clone of the V0 website builder and SDK.
 
 ## Packages
 
