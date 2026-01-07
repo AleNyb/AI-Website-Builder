@@ -1,6 +1,6 @@
 # AI Website Builder
 
-This is based on the V0 website builder SDK.
+This is based on the V0 website builder SDK, tailored for Eurozonic.
 
 ## Packages
 
