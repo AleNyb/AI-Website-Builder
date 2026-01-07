@@ -1,6 +1,6 @@
 # AI Website Builder
 
-This is based on a clone of the V0 website builder and SDK.
+This is based on the V0 website builder SDK.
 
 ## Packages
 
